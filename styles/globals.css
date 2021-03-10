@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+blockquote::before {
+    content: '\201C';
+}
+
+blockquote::after {
+    content: '\201D';
+}
